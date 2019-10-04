@@ -1,0 +1,55 @@
+    //id = "Home Storage Center and Bishops' Storehouse 2295 Ringwood Avenue a1, San Jose";
+    //console.log('BOOM BOOM  --->'+urlpart0 + id + urlpart1);
+
+    var newurlpart0 = 'https://www.google.com/search?q=';
+    var newurlpart1 = id;
+    var newurlpart2 = '&rlz=1C5CHFA_enUS852US852&oq=';
+    var newurlpart3 = id
+    var newurlpart4 = '&aqs=chrome..69i57.2242j0j9&sourceid=chrome&ie=UTF-8 !g';
+    //console.log('BOOM BOOM  --->'+newurlpart0 + newurlpart1 + newurlpart2 +newurlpart3+newurlpart4);
+    //headersnew =  { 'user-agent': 'Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Mobile Safari/537.36' }
+   
+
+    var tr = require('tor-request');
+
+    tr.TorControlPort.password = 'mypassword'
+
+ 
+    return new Promise((resolve,reject) => {tr.request(newurlpart0+newurlpart1+newurlpart2+newurlpart3+newurlpart4, function (err, res, body) {
+      console.log(err);
+      console.log(res);
+
+      console.log(body);
+
+  if (!err && res.statusCode == 200) {
+    console.log('11111');
+    resolve(body);
+    //console.log("Your public (through Tor) IP is: " + body);
+  }
+})});
+
+
+return new Promise((resolve, reject) => {tr.newTorSession((err, msg) => { 
+  if(err) {
+    console.log(err);
+    reject("");
+  }else{
+    
+    tr.request({ url: newurlpart0+newurlpart1+newurlpart2+newurlpart3+newurlpart4, headers: {
+      'authority':'www.google.com', 
+      'cache-control':'max-age=0', 
+      'upgrade-insecure-requests':'1', 
+      'sec-fetch-mode':'navigate', 
+      'sec-fetch-user':'?1', 
+      
+      'accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 
+      'x-client-data':'CIS2yQEIpLbJAQjBtskBCKmdygEIzZ/KAQioo8oBCOKoygEI3azKAQjmrMoBCOusygEIl63KAQidrcoBCM2tygEIzK7KAQjKr8oBCKiyygEIxLLKAQ==', 
+      'sec-fetch-site':'same-origin', 
+      'referer':'https://www.google.com/',
+      'accept-language':'en-US,en;q=0.9', 
+      'cookie':'CGIC=EhQxQzVDSEZBX2VuVVM4NTJVUzg1MiJ2dGV4dC9odG1sLGFwcGxpY2F0aW9uL3hodG1sK3htbCxhcHBsaWNhdGlvbi94bWw7cT0wLjksaW1hZ2Uvd2VicCxpbWFnZS9hcG5nLCovKjtxPTAuOCxhcHBsaWNhdGlvbi9zaWduZWQtZXhjaGFuZ2U7dj1iMw; ANID=AHWqTUnjReJoDbB7rSezNTmLwXHy0zVgCBtvKfmS1CkuBH56PgvlrENEA7eKyjHd; NID=188=otXfv9oWFgIXsYFyfh0__dbjNOkTiqe7PLBiKmTOaR_c5YSMphhTW-TxOvbyUTRrRZXQBMCvcGHDjDKu28mY-9su_duEewWkEINCS8PvomrKFP7UNGmIMbNL_GqNADHFLWJfK2hbw-RQjCWBfK03SseZ09Nsr_WTkxcPtLQ1vA4; 1P_JAR=2019-09-20-04; DV=k_jHabYotX4j4OgbEydFW6ip4rHP1JaKpsw9cz05ggEAAAA', 
+      'user-agent': 'Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Mobile Safari/537.36' }},
+    (err, res, body) => {console.log(body);body})
+  }
+})
+});

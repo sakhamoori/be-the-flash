@@ -1,0 +1,310 @@
+
+.App {
+  text-align: center;
+  background-color: #4e1a38;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  min-height: 100%;
+  height: 100%;
+  width:100%
+}
+
+.react-autosuggest__container {
+  position: relative;
+}
+
+
+
+.react-autosuggest__input--focused {
+  outline: none;
+}
+
+.react-autosuggest__input--open {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.react-autosuggest__suggestions-container {
+  display: none;
+}
+
+
+
+.react-autosuggest__suggestions-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.react-autosuggest__suggestion {
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.react-autosuggest__suggestion--highlighted {
+  background-color: #ddd;
+}
+
+@media (min-width: 1801px) and (max-width: 3000px){
+  
+
+  .react-autosuggest__input {
+    width: 80%;
+    height: 30px;
+    padding: 10px 20px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+
+  .react-autosuggest__suggestions-container--open {
+    display: block;
+    position: absolute;
+    left:132px;
+    top: 62px;
+    width: 82.5%;
+    color:#4C022E;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    z-index: 2;
+    text-align: left;
+    overflow-wrap: break-word;
+  }
+  
+  
+}
+
+
+@media (min-width: 1024px) and (max-width: 1800px){
+  
+  .react-autosuggest__input {
+    width: 80%;
+    height: 30px;
+    padding: 10px 20px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+
+  .react-autosuggest__suggestions-container--open {
+    display: block;
+    position: absolute;
+    left:113px;
+    top: 61px;
+    width: 83%;
+    color:#4C022E;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    z-index: 2;
+    text-align: left;
+    overflow-wrap: break-word;
+  }
+  
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+  .react-autosuggest__input {
+    width: 80%;
+    height: 30px;
+    padding: 10px 20px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+
+  .react-autosuggest__suggestions-container--open {
+    display: block;
+    position: absolute;
+    left:40px;
+    top: 62px;
+    width: 86.5%;
+    color:#4C022E;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    z-index: 2;
+    text-align: left;
+    overflow-wrap: break-word;
+  }
+
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .react-autosuggest__input {
+    width: 80%;
+    height: 30px;
+    padding: 10px 20px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+
+  .react-autosuggest__suggestions-container--open {
+    display: block;
+    position: absolute;
+    left:113px;
+    top: 61px;
+    width: 83%;
+    color:#4C022E;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    z-index: 2;
+    text-align: left;
+    overflow-wrap: break-word;
+  }
+  
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .react-autosuggest__input {
+    width: 80%;
+    height: 30px;
+    padding: 10px 20px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+
+  .react-autosuggest__suggestions-container--open {
+    display: block;
+    position: absolute;
+    left:113px;
+    top: 61px;
+    width: 83%;
+    color:#4C022E;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    z-index: 2;
+    text-align: left;
+    overflow-wrap: break-word;
+  }
+
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+
+  .react-autosuggest__input {
+    display: block;
+    position: relative;
+    width: 85%;
+    height: 30px;
+    padding: 10px 20px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin: "0 auto";
+    overflow-wrap: break-word;
+  }
+
+  .react-autosuggest__suggestions-container--open {
+    display: block;
+    position: absolute;
+    top: 51px;
+    width: 97%;
+    color:#4C022E;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    z-index: 2;
+    text-align: left;
+    overflow-wrap: break-word;
+  }
+  
+  
+}
+

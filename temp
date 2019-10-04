@@ -1,0 +1,500 @@
+[ 
+   { 
+      "opening_hours":{ 
+         "open_now":true
+      },
+      "types":[ 
+         "supermarket",
+         "grocery_or_supermarket",
+         "food",
+         "point_of_interest",
+         "store",
+         "establishment"
+      ],
+      "namelocation":"99 Ranch Market 1688 Hostetter Road Pacific Rim Plaza, San Jose",
+      "storename":"99 Ranch Market",
+      "address":"1688 Hostetter Road Pacific Rim Plaza, San Jose",
+      "lat":37.38632070000001,
+      "lng":-121.8844061,
+      "place_id":"ChIJzwlSNxfMj4ARe0mgkt7KZFw",
+      "driving_distance":2.200274711,
+      "driving_duration_minutes_string":"7 min ",
+      "driving_duration_hours_string":"7 min ",
+      "driving_duration_hours_formated":"7 min ",
+      "driving_duration_seconds":453,
+      "biking_distance":1.887103727,
+      "biking_duration_minutes_string":"14 min ",
+      "biking_duration_hours_string":"14 min ",
+      "biking_duration_seconds":852,
+      "transit_distance":1.8535496930000002,
+      "transit_duration_minutes_string":"31 min ",
+      "transit_duration_hours_string":"31 min ",
+      "transit_duration_seconds":1882,
+      "walking_distance":1.679565813,
+      "walking_duration_minutes_string":"45 min ",
+      "walking_duration_hours_string":"45 min ",
+      "walking_duration_seconds":2755,
+      "hov_driving_distance":2.200274711,
+      "hov_driving_duration_minutes_string":"7 min ",
+      "hov_driving_duration_hours_string":"7 min ",
+      "hov_driving_duration_seconds":453,
+      "postmates_fee":926,
+      "postmates_duration_minutes":43,
+      "todays_schedule":[ 
+
+      ]
+   },
+   { 
+      "opening_hours":{ 
+         "open_now":true
+      },
+      "types":[ 
+         "department_store",
+         "supermarket",
+         "grocery_or_supermarket",
+         "electronics_store",
+         "food",
+         "point_of_interest",
+         "store",
+         "establishment"
+      ],
+      "namelocation":"Walmart Supercenter 301 Ranch Drive, Milpitas",
+      "storename":"Walmart Supercenter",
+      "address":"301 Ranch Drive, Milpitas",
+      "lat":37.4314217,
+      "lng":-121.9211574,
+      "place_id":"ChIJqeO8JtzIj4AR-EJ3nWnWqAs",
+      "driving_distance":3.9227151229999997,
+      "driving_duration_minutes_string":"13 min ",
+      "driving_duration_hours_string":"13 min ",
+      "driving_duration_hours_formated":"13 min ",
+      "driving_duration_seconds":799,
+      "biking_distance":3.584067928,
+      "biking_duration_minutes_string":"26 min ",
+      "biking_duration_hours_string":"26 min ",
+      "biking_duration_seconds":1619,
+      "transit_distance":7.026463268,
+      "transit_duration_minutes_string":"13 min ",
+      "transit_duration_hours_string":"1 h 13 min ",
+      "transit_duration_seconds":4394,
+      "walking_distance":3.433074775,
+      "walking_duration_minutes_string":"33 min ",
+      "walking_duration_hours_string":"1 h 33 min ",
+      "walking_duration_seconds":5631,
+      "hov_driving_distance":3.9227151229999997,
+      "hov_driving_duration_minutes_string":"13 min ",
+      "hov_driving_duration_hours_string":"13 min ",
+      "hov_driving_duration_seconds":799,
+      "postmates_fee":1329,
+      "postmates_duration_minutes":53,
+      "updated_todays_schedule_expanded_cleaned":[ 
+         { 
+            "time":7,
+            "time_string":"7 AM",
+            "busy_score":1
+         },
+         { 
+            "time":8,
+            "time_string":"8 AM",
+            "busy_score":5
+         },
+         { 
+            "time":9,
+            "time_string":"9 AM",
+            "busy_score":10
+         },
+         { 
+            "time":10,
+            "time_string":"10 AM",
+            "busy_score":18
+         },
+         { 
+            "time":11,
+            "time_string":"11 AM",
+            "busy_score":26
+         },
+         { 
+            "time":12,
+            "time_string":"12 PM",
+            "busy_score":35
+         },
+         { 
+            "time":1,
+            "time_string":"1 PM",
+            "busy_score":43
+         },
+         { 
+            "time":2,
+            "time_string":"2 PM",
+            "busy_score":47
+         },
+         { 
+            "time":3,
+            "time_string":"3 PM",
+            "busy_score":47
+         },
+         { 
+            "time":4,
+            "time_string":"4 PM",
+            "busy_score":45
+         },
+         { 
+            "time":5,
+            "time_string":"5 PM",
+            "busy_score":41
+         },
+         { 
+            "time":6,
+            "time_string":"6 PM",
+            "busy_score":42
+         },
+         { 
+            "time":7,
+            "time_string":"7 PM",
+            "busy_score":50
+         },
+         { 
+            "time":8,
+            "time_string":"8 PM",
+            "busy_score":61
+         },
+         { 
+            "time":9,
+            "time_string":"9 PM",
+            "busy_score":65
+         },
+         { 
+            "time":10,
+            "time_string":"10 PM",
+            "busy_score":55
+         },
+         { 
+            "time":11,
+            "time_string":"11 PM",
+            "busy_score":36
+         },
+         { 
+            "time":12,
+            "time_string":"12 AM",
+            "busy_score":17
+         }
+      ]
+   },
+   { 
+      "opening_hours":{ 
+         "open_now":true
+      },
+      "types":[ 
+         "supermarket",
+         "grocery_or_supermarket",
+         "food",
+         "point_of_interest",
+         "store",
+         "establishment"
+      ],
+      "namelocation":"Lucky 1350 South Park Victoria Drive, Milpitas",
+      "storename":"Lucky",
+      "address":"1350 South Park Victoria Drive, Milpitas",
+      "lat":37.418288,
+      "lng":-121.874902,
+      "place_id":"ChIJd8sMc5TOj4ARjGr99uBaliI",
+      "driving_distance":2.130681159,
+      "driving_duration_minutes_string":"6 min ",
+      "driving_duration_hours_string":"6 min ",
+      "driving_duration_hours_formated":"6 min ",
+      "driving_duration_seconds":408,
+      "biking_distance":2.130681159,
+      "biking_duration_minutes_string":"15 min ",
+      "biking_duration_hours_string":"15 min ",
+      "biking_duration_seconds":935,
+      "transit_distance":3.17520581,
+      "transit_duration_minutes_string":"45 min ",
+      "transit_duration_hours_string":"45 min ",
+      "transit_duration_seconds":2708,
+      "walking_distance":1.8703267099999998,
+      "walking_duration_minutes_string":"51 min ",
+      "walking_duration_hours_string":"51 min ",
+      "walking_duration_seconds":3068,
+      "hov_driving_distance":2.130681159,
+      "hov_driving_duration_minutes_string":"6 min ",
+      "hov_driving_duration_hours_string":"6 min ",
+      "hov_driving_duration_seconds":408,
+      "postmates_fee":0,
+      "postmates_duration_minutes":0,
+      "todays_schedule":[ 
+
+      ]
+   },
+   { 
+      "opening_hours":{ 
+         "open_now":true
+      },
+      "types":[ 
+         "supermarket",
+         "bakery",
+         "grocery_or_supermarket",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "store",
+         "establishment"
+      ],
+      "namelocation":"Seafood City Supermarket Milpitas 1535 Landess Avenue, Milpitas",
+      "storename":"Seafood City Supermarket Milpitas",
+      "address":"1535 Landess Avenue, Milpitas",
+      "lat":37.4168621,
+      "lng":-121.8769997,
+      "place_id":"ChIJe9y2uZXOj4AR8IwWBWnop2g",
+      "driving_distance":2.1760412419999997,
+      "driving_duration_minutes_string":"7 min ",
+      "driving_duration_hours_string":"7 min ",
+      "driving_duration_hours_formated":"7 min ",
+      "driving_duration_seconds":476,
+      "biking_distance":2.1760412419999997,
+      "biking_duration_minutes_string":"15 min ",
+      "biking_duration_hours_string":"15 min ",
+      "biking_duration_seconds":959,
+      "transit_distance":3.220565893,
+      "transit_duration_minutes_string":"46 min ",
+      "transit_duration_hours_string":"46 min ",
+      "transit_duration_seconds":2799,
+      "walking_distance":1.798869045,
+      "walking_duration_minutes_string":"49 min ",
+      "walking_duration_hours_string":"49 min ",
+      "walking_duration_seconds":2978,
+      "hov_driving_distance":2.1760412419999997,
+      "hov_driving_duration_minutes_string":"7 min ",
+      "hov_driving_duration_hours_string":"7 min ",
+      "hov_driving_duration_seconds":476,
+      "postmates_fee":0,
+      "postmates_duration_minutes":0,
+      "todays_schedule":[ 
+
+      ]
+   },
+   { 
+      "opening_hours":{ 
+         "open_now":true
+      },
+      "types":[ 
+         "supermarket",
+         "grocery_or_supermarket",
+         "food",
+         "point_of_interest",
+         "store",
+         "establishment"
+      ],
+      "namelocation":"Lucky 1641 North Capitol Avenue, San Jose",
+      "storename":"Lucky",
+      "address":"1641 North Capitol Avenue, San Jose",
+      "lat":37.39675269999999,
+      "lng":-121.8735749,
+      "place_id":"ChIJd640-SPMj4ARBvqNgg5hvb8",
+      "driving_distance":1.724304525,
+      "driving_duration_minutes_string":"6 min ",
+      "driving_duration_hours_string":"6 min ",
+      "driving_duration_hours_formated":"6 min ",
+      "driving_duration_seconds":381,
+      "biking_distance":1.724304525,
+      "biking_duration_minutes_string":"13 min ",
+      "biking_duration_hours_string":"13 min ",
+      "biking_duration_seconds":798,
+      "transit_distance":2.4668428700000002,
+      "transit_duration_minutes_string":"42 min ",
+      "transit_duration_hours_string":"42 min ",
+      "transit_duration_seconds":2521,
+      "walking_distance":1.52857266,
+      "walking_duration_minutes_string":"41 min ",
+      "walking_duration_hours_string":"41 min ",
+      "walking_duration_seconds":2512,
+      "hov_driving_distance":1.724304525,
+      "hov_driving_duration_minutes_string":"6 min ",
+      "hov_driving_duration_hours_string":"6 min ",
+      "hov_driving_duration_seconds":381,
+      "postmates_fee":935,
+      "postmates_duration_minutes":43,
+      "todays_schedule":[ 
+
+      ]
+   },
+   { 
+      "opening_hours":{ 
+         "open_now":true
+      },
+      "types":[ 
+         "supermarket",
+         "grocery_or_supermarket",
+         "food",
+         "point_of_interest",
+         "store",
+         "establishment"
+      ],
+      "namelocation":"99 Ranch Market Milpitas Square, 338 Barber Lane, Milpitas",
+      "storename":"99 Ranch Market",
+      "address":"Milpitas Square, 338 Barber Lane, Milpitas",
+      "lat":37.4228088,
+      "lng":-121.9167387,
+      "place_id":"ChIJB6nTySbJj4ARxJnc-v4ZJoo",
+      "driving_distance":3.37404453,
+      "driving_duration_minutes_string":"12 min ",
+      "driving_duration_hours_string":"12 min ",
+      "driving_duration_hours_formated":"12 min ",
+      "driving_duration_seconds":741,
+      "biking_distance":3.100019919,
+      "biking_duration_minutes_string":"22 min ",
+      "biking_duration_hours_string":"22 min ",
+      "biking_duration_seconds":1366,
+      "transit_distance":3.1981965370000003,
+      "transit_duration_minutes_string":"56 min ",
+      "transit_duration_hours_string":"56 min ",
+      "transit_duration_seconds":3376,
+      "walking_distance":2.693021914,
+      "walking_duration_minutes_string":"13 min ",
+      "walking_duration_hours_string":"1 h 13 min ",
+      "walking_duration_seconds":4426,
+      "hov_driving_distance":3.37404453,
+      "hov_driving_duration_minutes_string":"12 min ",
+      "hov_driving_duration_hours_string":"12 min ",
+      "hov_driving_duration_seconds":741,
+      "postmates_fee":1206,
+      "postmates_duration_minutes":53,
+      "todays_schedule":[ 
+
+      ]
+   },
+   { 
+      "opening_hours":{ 
+         "open_now":true
+      },
+      "types":[ 
+         "grocery_or_supermarket",
+         "supermarket",
+         "food",
+         "point_of_interest",
+         "store",
+         "establishment"
+      ],
+      "namelocation":"Grocery Outlet Bargain Market 215 West Calaveras Boulevard, Milpitas",
+      "storename":"Grocery Outlet Bargain Market",
+      "address":"215 West Calaveras Boulevard, Milpitas",
+      "lat":37.4285579,
+      "lng":-121.9114927,
+      "place_id":"ChIJw_3syinJj4ARNKDHL9l1Mic",
+      "driving_distance":2.981959429,
+      "driving_duration_minutes_string":"10 min ",
+      "driving_duration_hours_string":"10 min ",
+      "driving_duration_hours_formated":"10 min ",
+      "driving_duration_seconds":638,
+      "biking_distance":2.4593864180000002,
+      "biking_duration_minutes_string":"19 min ",
+      "biking_duration_hours_string":"19 min ",
+      "biking_duration_seconds":1157,
+      "transit_distance":3.221187264,
+      "transit_duration_minutes_string":"47 min ",
+      "transit_duration_hours_string":"47 min ",
+      "transit_duration_seconds":2876,
+      "walking_distance":2.339461815,
+      "walking_duration_minutes_string":"4 min ",
+      "walking_duration_hours_string":"1 h 4 min ",
+      "walking_duration_seconds":3843,
+      "hov_driving_distance":2.981959429,
+      "hov_driving_duration_minutes_string":"10 min ",
+      "hov_driving_duration_hours_string":"10 min ",
+      "hov_driving_duration_seconds":638,
+      "postmates_fee":1258,
+      "postmates_duration_minutes":48,
+      "todays_schedule":[ 
+
+      ]
+   },
+   { 
+      "opening_hours":{ 
+         "open_now":true
+      },
+      "types":[ 
+         "grocery_or_supermarket",
+         "supermarket",
+         "food",
+         "point_of_interest",
+         "store",
+         "establishment"
+      ],
+      "namelocation":"Smart & Final Extra! 401 Jacklin Road, Milpitas",
+      "storename":"Smart & Final Extra!",
+      "address":"401 Jacklin Road, Milpitas",
+      "lat":37.447719,
+      "lng":-121.9023778,
+      "place_id":"ChIJBSuwN8vIj4ARUhcSTm7cCJw",
+      "driving_distance":4.96475429,
+      "driving_duration_minutes_string":"11 min ",
+      "driving_duration_hours_string":"11 min ",
+      "driving_duration_hours_formated":"11 min ",
+      "driving_duration_seconds":675,
+      "biking_distance":3.8866756049999998,
+      "biking_duration_minutes_string":"29 min ",
+      "biking_duration_hours_string":"29 min ",
+      "biking_duration_seconds":1765,
+      "transit_distance":4.545950236,
+      "transit_duration_minutes_string":"51 min ",
+      "transit_duration_hours_string":"51 min ",
+      "transit_duration_seconds":3092,
+      "walking_distance":3.766129631,
+      "walking_duration_minutes_string":"42 min ",
+      "walking_duration_hours_string":"1 h 42 min ",
+      "walking_duration_seconds":6149,
+      "hov_driving_distance":4.96475429,
+      "hov_driving_duration_minutes_string":"11 min ",
+      "hov_driving_duration_hours_string":"11 min ",
+      "hov_driving_duration_seconds":675,
+      "postmates_fee":0,
+      "postmates_duration_minutes":0,
+      "todays_schedule":[ 
+
+      ]
+   },
+   { 
+      "opening_hours":{ 
+         "open_now":false
+      },
+      "types":[ 
+         "supermarket",
+         "grocery_or_supermarket",
+         "food",
+         "point_of_interest",
+         "store",
+         "establishment"
+      ],
+      "namelocation":"Home Storage Center and Bishops' Storehouse 2295 Ringwood Avenue a1, San Jose",
+      "storename":"Home Storage Center and Bishops' Storehouse",
+      "address":"2295 Ringwood Avenue a1, San Jose",
+      "lat":37.4019906,
+      "lng":-121.8999282,
+      "place_id":"ChIJ40MdMCrPj4ARwxUugaDKZr8",
+      "driving_distance":0.908444402,
+      "driving_duration_minutes_string":"6 min ",
+      "driving_duration_hours_string":"6 min ",
+      "driving_duration_hours_formated":"6 min ",
+      "driving_duration_seconds":377,
+      "biking_distance":0.448008491,
+      "biking_duration_minutes_string":"3 min ",
+      "biking_duration_hours_string":"3 min ",
+      "biking_duration_seconds":216,
+      "transit_distance":0.448008491,
+      "transit_duration_minutes_string":"12 min ",
+      "transit_duration_hours_string":"12 min ",
+      "transit_duration_seconds":762,
+      "walking_distance":0.448008491,
+      "walking_duration_minutes_string":"12 min ",
+      "walking_duration_hours_string":"12 min ",
+      "walking_duration_seconds":762,
+      "hov_driving_distance":0.908444402,
+      "hov_driving_duration_minutes_string":"6 min ",
+      "hov_driving_duration_hours_string":"6 min ",
+      "hov_driving_duration_seconds":377,
+      "postmates_fee":786,
+      "postmates_duration_minutes":43,
+      "todays_schedule":[ 
+
+      ]
+   }
+]
